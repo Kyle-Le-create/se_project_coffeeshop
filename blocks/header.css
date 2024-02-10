@@ -8,9 +8,10 @@
     background-image: url(../images/background_header.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #ffff;
+    background-color: #ffffff;
     position: relative;
     box-sizing: border-box;
+    font-family: "Noto Serif";
   }
 
   .header__title{
@@ -56,6 +57,10 @@
     display: flex;
     justify-content: space-between;
     margin-top: auto;
+  }
+
+  .header__footer:last-child{
+    align-items: end;
   }
 
   .header__paragraph{
