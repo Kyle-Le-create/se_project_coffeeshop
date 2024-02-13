@@ -1,86 +1,86 @@
-.form{
-    max-width: 385px;
-    }
+.form {
+  max-width: 385px;
+}
 
-    .form__fieldset{
-    padding: 0;
-    margin: 0;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    }
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
 
-    .form__label{
-      margin-bottom: 32px;
-      font-family: "Inter";
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      display: block;
-    }
+.form__label {
+  margin-bottom: 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+}
 
-    .form__input{
-      display: block;
-      width: 100%;
-      box-sizing: border-box;
-      padding: 0;
-      margin-top: 8px;
-      border-radius: 4px;
-      height: 60px;
-      color: #838383;
-      border-width: 1px;
-      border-style: solid;
-      border-color: #838383;
-     }
+.form__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 8px;
+  border-radius: 4px;
+  height: 60px;
+  color: #838383;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #838383;
+}
 
-     .form__input::placeholder{
-      padding: 10px;
-      font-family: "Inter";
-      font-size: 20px;
-      font-weight: normal;
-      line-height: 30px;
-      color: #838383;
-     }
+.form__input::placeholder {
+  padding: 10px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #838383;
+}
 
-     .form__input[type="datetime-local"]{
-      padding: 10px;
-      font-family: "Inter";
-      font-size: 20px;
-      font-weight: normal;
-      line-height: 30px;
-     }
+.form__input[type="datetime-local"] {
+  padding: 10px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+}
 
-     .form__button{
-      width: 100%;
-      padding: 0;
-      margin-bottom: 32px;
-      height: 60px;
-      border-radius: 4px;
-      border-style: none;
-      font-family: "Inter";
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      background-color: #2f80ed;
-      color: #ffffff;
-      transition: opacity 0.4s;
-    }
+.form__button {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  height: 60px;
+  border-radius: 4px;
+  border-style: none;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  transition: opacity 0.4s;
+}
 
-    .form__button:hover{
-      opacity: .7;
-    }
+.form__button:hover {
+  opacity: 0.7;
+}
 
-    .form__checkbox{
-      border-radius: 2px;
-      height: 20px;
-      width: 20px;
-      margin-right: 12px;
-    }
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
 
-    .form__label_type_checkbox{
-      margin-bottom: 0;
-      display: flex;
-      justify-content: center;
-    }
+.form__label_type_checkbox {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
