@@ -16,11 +16,12 @@
     background-color: #0a2850;
     position: relative;
     display: flex;
+    overflow: hidden;
   }
 
   .about__title{
     max-width: 251px;
-    margin: 19px auto 0 0;
+    margin: 0 auto 0 0;
     z-index: 2;
     color: #ffffff;
     font-family: 'Inter', arial, sans-serif;
@@ -35,12 +36,13 @@
     flex-direction: column;
     row-gap: 20px;
     max-width: 660px;
+    margin-top: 19px;
   }
 
   .about__paragraph{
     margin: 0;
     color: #ffffff;
-    font-family: 'Noto Serif', Times, serif;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;

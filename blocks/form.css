@@ -80,6 +80,7 @@
     }
 
     .form__label_type_checkbox{
+      margin-bottom: 0;
       display: flex;
       justify-content: center;
     }
